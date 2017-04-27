@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.slider_section {
+	background-image: url(header.jpg);
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: #b9b1af;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #b9b1af;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+	}
+.navbar-transparen {
+    background-color: transparent;
+    border-bottom: 1px solid #b9b1af;
+    color: white;
+
+    transition: all 3.5s;
+}
+
+.img-responsive {
+	width: 100%;
+}
+.icon {
+	width: 6%;
+	margin: 0 auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.slide {
+	text-align: center;
+	margin-top: 11%;
+	margin-bottom: 13%;
+	color: white;
+}
+.slide h1 {
+	font-size: 345%;
+	font-weight: bolder;
+}
+.slide p {
+	font-weight: 300;
+	font-size: 153%;
+	padding-bottom: 4%;
+	color: rgba(255,255,255,.7);
+	font-family: serif;
+}
+.btn_orange {
+	background-color: #F05F40;
+	color: white;
+	border-radius: 25px;
+	padding: 14px 25px;
+	border: transparent;
+}
+.btn_white {
+	background-color: #FFFFFF;
+	color: #222222;
+	font-weight: bolder;
+	border-radius: 25px;
+	padding: 15px 30px;
+	margin-top: 20px;
+	border: transparent;
+}
+.second_section {
+	background-color: #F05F40;
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 5%;
+	color: white;
+}
+.secvice_text {
+	text-align: center;
+	margin-top: 13%;
+}
+.service {
+	text-align: center;
+}
+.fa-5x {
+	color: #F05F40;
+}
+.portfolio_section {
+	margin-top: 10%;
+	padding-bottom: 5%;
+	background-color: #222222;
+	text-align: center;
+}
+.portfolio_section h2 {
+	padding-top: 5%;
+	color: white;
+}
+.portfolio {
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+	z-index: 99;
+	transition: 2s;
+}
+
+.portfolio .portfolio_transform {
+	color: #fff;
+    opacity: 1;
+    display: none;
+    background: rgba(240,95,64,.9);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 15%;
+}
+.portfolio:hover .portfolio_transform {
+	display: block;
+	transition: 2s;
+}
+
+.footer_section {
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+.footer_section p {
+	font-size: 17px;
+
+}
+.footer_section p a {
+	color: #F05F40;
+}
+.font {
+	font-family: 'Indie Flower', cursive;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(51, 51, 51);
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 767px) {
+    		.second_section {
+							background-color: #776c6c;
+							text-align: center;
+							padding-top: 6%;
+							padding-bottom: 5%;
+							color: white;
+							}
+			.second_section p {
+							text-align: justify;
+							}
+				.slide h1 {
+							font-size: 245%;
+							font-weight: bolder;
+							padding-top: 10%;
+							}
+				.slide p {
+							text-align: justify;
+							padding: 5%;
+							}
+				.service {
+							background-color: #527370;
+							color: white;
+							padding: 2%;
+							
+							}
+			.navbar-transparen {
+						    background-color: #4a423f;
+						    border-bottom: 1px solid #b9b1af;
+						    color: white;
+						    }
+			.footer_section {
+							text-align: center;
+							padding-top: 7%;
+							padding-bottom: 7%;
+							background-color: #7f5218;
+							color: white;
+							}
+				.justify {
+							font-size: 17px;
+							text-align: justify;
+						}
+					.icon {
+							width: 15%;
+							margin: 0 auto;
+							margin-top: 4%;
+							margin-bottom: 4%;
+						}
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
